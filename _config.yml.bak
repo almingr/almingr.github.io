@@ -1,6 +1,6 @@
 title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+author: almingr
+# email: your-email@domain.com
 description: > # this means to ignore newlines until "twitter_username:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -41,6 +41,12 @@ minima:
 
 # Build settings
 theme: minima
+
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+  - _pages/about.md
+  - _pages/archive.md
 
 include:
     - _pages
